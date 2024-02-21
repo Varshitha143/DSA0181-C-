@@ -1,0 +1,29 @@
+#include <iostream>
+#include <limits>
+
+int main() {
+    int num1 = std::numeric_limits<int>::max(); // Maximum value for int
+    int num2 = 5;
+    if (num1 + num2 < num1) {
+        std::cout << "Overflow occurred during addition!" << std::endl;
+    } else {
+        std::cout << "No overflow occurred during addition." << std::endl;
+    }
+    if (num1 - num2 > num1) {
+        std::cout << "Underflow occurred during subtraction!" << std::endl;
+    } else {
+        std::cout << "No underflow occurred during subtraction." << std::endl;
+    }
+    if (num1 * num2 < num1) {
+        std::cout << "Overflow occurred during multiplication!" << std::endl;
+    } else {
+        std::cout << "No overflow occurred during multiplication." << std::endl;
+    }
+    if (num1 / num2 < num1) {
+        std::cout << "Overflow occurred during division!" << std::endl;
+    } else {
+        std::cout << "No overflow occurred during division." << std::endl;
+    }
+
+    return 0;
+}
