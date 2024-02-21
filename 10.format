@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>
+
+int main() {
+    int num1 = 123;
+    double num2 = 45.6789;
+    std::cout << "Formatted Output:" << std::endl;
+    std::cout << "Integer: " << std::setw(10) << std::setfill('0') << num1 << std::endl;
+    std::cout << "Double: " << std::fixed << std::setprecision(2) << num2 << std::endl;
+
+    return 0;
+}
