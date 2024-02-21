@@ -1,0 +1,14 @@
+#include <iostream>
+#include <limits>
+
+int main() {
+    int num = std::numeric_limits<int>::max(); // Maximum value for int
+    std::cout << "Maximum value for int: " << num << std::endl;
+    if (num + 1 < num) {
+        std::cout << "Primitive value crossed the limit!" << std::endl;
+    } else {
+        std::cout << "Primitive value did not cross the limit." << std::endl;
+    }
+
+    return 0;
+}
