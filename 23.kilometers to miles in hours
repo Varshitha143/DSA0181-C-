@@ -1,0 +1,7 @@
+float km_per_hour, miles_per_hour;
+    cout << "\nConvert kilometers per hour to miles per hour :\n";
+    cout << "----------------------------------------------------\n";
+    cout << "Input the distance in kilometer: ";
+    cin >> km_per_hour;
+    miles_per_hour = km_per_hour * 0.621371;
+    cout << "The " << km_per_hour << " Km./hr. means " << miles_per_hour << " Miles/hr.\n";
