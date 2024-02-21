@@ -1,0 +1,8 @@
+float kelvin;
+    cout << "\nConvert temperature in Kelvin to Fahrenheit :\n";
+    cout << "---------------------------------------------------\n";
+    cout << "Input the temperature in Kelvin: ";
+    cin >> kelvin;
+    fahrenheit = (kelvin - 273.15) * 9 / 5 + 32;
+    cout << "The temperature in Kelvin: " << kelvin << endl;
+    cout << "The temperature in Fahrenheit: " << fahrenheit << endl;
