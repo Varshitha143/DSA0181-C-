@@ -1,0 +1,12 @@
+ float side1, side2, angle;
+    cout << "\nFind the area of Scalene Triangle :\n";
+    cout << "----------------------------------------\n";
+    cout << "Input the length of a side of the triangle: ";
+    cin >> side1;
+    cout << "Input the length of another side of the triangle: ";
+    cin >> side2;
+    cout << "Input the angle between these sides of the triangle: ";
+    cin >> angle;
+    float radians = angle * 3.14159 / 180;
+    float area_triangle = 0.5 * side1 * side2 * sin(radians);
+    cout << "The area of the Scalene Triangle is: " << area_triangle << endl;
