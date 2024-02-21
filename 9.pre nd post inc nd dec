@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() {
+    int num = 5;
+
+  
+    std::cout << "Pre-increment:" << std::endl;
+    std::cout << "Original value of num: " << num << std::endl;
+    std::cout << "Value after pre-increment: " << ++num << std::endl;
+    std::cout << "Final value of num: " << num << std::endl;
+    
+    std::cout << "\nPost-increment:" << std::endl;
+    num = 5; // Reset num to its original value
+    std::cout << "Original value of num: " << num << std::endl;
+    std::cout << "Value after post-increment: " << num++ << std::endl;
+    std::cout << "Final value of num: " << num << std::endl;
+    
+    std::cout << "\nPre-decrement:" << std::endl;
+    num = 5; // Reset num to its original value
+    std::cout << "Original value of num: " << num << std::endl;
+    std::cout << "Value after pre-decrement: " << --num << std::endl;
+    std::cout << "Final value of num: " << num << std::endl;
+    
+    std::cout << "\nPost-decrement:" << std::endl;
+    num = 5; // Reset num to its original value
+    std::cout << "Original value of num: " << num << std::endl;
+    std::cout << "Value after post-decrement: " << num-- << std::endl;
+    std::cout << "Final value of num: " << num << std::endl;
+
+    return 0;
+}
